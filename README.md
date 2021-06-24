@@ -19,6 +19,13 @@ yarn build
 ```
 yarn lint
 ```
+### Here is the link to the REST API mock server for testing/sampling frontend applications
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+please use this link because I added id to post response, and allowed failed login to continue working 
+
+https://github.com/zaratejavier/mocky-rest-api
+
+
+
+```
