@@ -101,7 +101,7 @@ export default {
   padding: 0px 5px;
   font-size: 1.2em;
   line-height: 1.2em;
-  margin: 0px;
+  margin: 10px;
 }
 
 .todo-edit-item{

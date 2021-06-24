@@ -40,11 +40,9 @@ export default {
   },
   methods: {
     openModal() {
-      console.log("trying to open modal")
       this.showModal = true;
     },
     closeModal() {
-      console.log("trying to close modal")
       this.showModal = false;
     }
   }

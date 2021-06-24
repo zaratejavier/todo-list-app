@@ -38,15 +38,12 @@ export default{
   },
   methods: {
     login(){
-      // console.log("****************************)))")
       this.$store.dispatch('retrieveToken', {
         username: this.username,
         password: this.password
       })
       .then(() => {
-          // this.loading = false
           this.$router.push('/todo')
-          // response.data
         })
       .catch(() => {
         this.wrongLogin = true;

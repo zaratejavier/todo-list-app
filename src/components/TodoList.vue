@@ -54,7 +54,6 @@ export default {
   },
   methods: {
     addTodo() {
-      debugger;
       if (
         this.newTodoTitle.trim().length == 0 &&
         this.newTodoText.trim().length == 0

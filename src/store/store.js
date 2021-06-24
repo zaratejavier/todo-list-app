@@ -138,7 +138,6 @@ export const store = new Vuex.Store({
         });
     },
     retrieveTodos(context) {
-      console.log('getRequest');
       axios
         .get('http://localhost:9090/api/v1/items', {
           headers: {
@@ -156,7 +155,6 @@ export const store = new Vuex.Store({
         });
     },
     updateTodo(context, todo) {
-      debugger;
       let today = new Date().toISOString().slice(0, 10);
       axios
         .put(
